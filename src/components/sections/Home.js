@@ -5,7 +5,7 @@ class Home extends React.Component {
   render() {
     return (
       <section id="home">
-        <h1>Home</h1>
+        <h1>Niet uw <span className="underline">typische</span> ananas!</h1>
       </section>
     )
   }

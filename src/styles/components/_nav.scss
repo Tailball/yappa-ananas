@@ -1,3 +1,37 @@
-#nav {
+nav {
+    width: 95vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    position: fixed;
+    left: 50%;
+    top: 3vh;
+    transform: translateX(-50%);
+
+    z-index: 999;
+
+    .brand {
+        display: flex;
+        align-items: center;
+
+        > svg:nth-child(1) {
+            margin-right: 9px;
+        }
+    }
+
+    .navtoggle {
+        cursor: pointer;
+        transition: all 300ms ease-in-out;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}
+
+#navmenu {
     background-color: $color-light;
 }

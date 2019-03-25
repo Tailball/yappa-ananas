@@ -1,14 +1,14 @@
 import React from 'react'
 
-class Nav extends React.Component {
+class NavMenu extends React.Component {
 
   render() {
     return (
-      <div id="nav">
+      <div id="navmenu">
         <h1>Nav</h1>
       </div>
     )
   }
 }
 
-export default Nav;
+export default NavMenu;

@@ -8,6 +8,11 @@
     font-family: $f-ss;
 }
 
+*:active,
+*:focus {
+    outline: none;
+}
+
 body {
     width: 100%;
     min-height: 100vh;
@@ -26,6 +31,7 @@ span.underline {
     color: $color-light;
     font-family: $f-s;
     font-weight: 300;
+    line-height: 1;
 }
 
 span.underline {
